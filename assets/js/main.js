@@ -119,20 +119,3 @@
 })(jQuery);
 
 
-//background images rotate using javascript////////////////////////////////////
-
-var myImage = document.getElementById("top");
-
-var imageArray = ["1.jpg","2.jpg"];
-var imageIndex = 0;
-
-function changeImage() {
-    myImage.setAttribute("src",imageArray[imageIndex]);
-    imageIndex++;
-    if (imageIndex >= imageArray.length) {
-        imageIndex = 0;
-    }
-}
-
-// setInterval is also in milliseconds
-setInterval(changeImage,5000);
