@@ -1583,6 +1583,9 @@
 		color: black;
 		line-height: 1.5em;
 		font-family: "Amatic SC";
+		color: #33ccff;
+		font-weight: 600;
+		text-transform: uppercase;
 	}
 
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1669,12 +1672,14 @@
 		border-left: solid 0.5em #ddd;
 		padding: 1em 0 1em 2em;
 		font-style: italic;
+
 	}
 
 	p, ul, ol, dl, table {
 		margin-bottom: 2em;
 		color: black;
 		font-weight: 700;
+		font-family: "Amatic SC";
 	}
 
 	br.clear {
