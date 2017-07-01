@@ -121,7 +121,7 @@
 
 //background images rotate using javascript////////////////////////////////////
 
-var myImage = document.getElementById("background");
+var myImage = document.getElementById("top");
 
 var imageArray = ["1.jpg","2.jpg"];
 var imageIndex = 0;
